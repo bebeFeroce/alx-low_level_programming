@@ -10,7 +10,7 @@ int main(void)
 	int number = '0';
 	int a_to_f = 'a';
 
-	while (number <= 9) /* packaging for printing from 0 to 9 */
+	while (number <= '9') /* packaging for printing from 0 to 9 */
 	{
 		putchar(number);
 		number++;
@@ -21,7 +21,7 @@ int main(void)
 		putchar(a_to_f); /* we print them after the numbers */
 		a_to_f++;
 	}
-	
+
 	putchar('\n');
 
 	return (0);
